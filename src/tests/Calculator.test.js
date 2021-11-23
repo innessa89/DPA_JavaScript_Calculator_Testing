@@ -114,7 +114,6 @@ describe('Calculator', () => {
     equal.simulate('click');
     container.find('#clear').simulate('click');
     expect(runningTotal.text()).toEqual('0');
-    expect(previousTotal.text()).toEqual('0');
   })  
 })
 
